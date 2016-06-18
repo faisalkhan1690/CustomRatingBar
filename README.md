@@ -19,18 +19,13 @@ How to use
 Example 
 --------------
 ```xml
- <co.clubmahindra.mahindraholidays.utils.RatingBarCustom
-   android:id="@+id/rbClean"
-   android:indeterminateDrawable="@drawable/unselected_star"
-   android:progressDrawable="@drawable/rating_stars"
-   rating_bar_custom:customNumStars="5"
-   android:layout_width="wrap_content"
-   android:layout_height="wrap_content"
-   android:layout_alignParentRight="true"
-   android:layout_marginRight="@dimen/margin10dp"
-   android:isIndicator="false"
-   android:paddingTop="@dimen/padding8dp"
-   android:stepSize="1.0" />
+ <com.example.faisalkhan.customratingbarlib.RatingBarCustom
+      android:id="@+id/rating_bar_custom"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:indeterminateDrawable="@drawable/unselected_star"
+      android:progressDrawable="@drawable/rating_stars"
+      rating_bar_custom:customNumStars="5" />
 ```
  
 Screenshots
