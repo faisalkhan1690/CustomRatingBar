@@ -1,7 +1,7 @@
 CustomRatingBar
 ===================================
 
->Cuatom Rating bar for avoiding blooding problem in native Rating bar:
+>Cuatom Rating bar for avoid blooding problem in native Rating bar
 
 
 How to use
