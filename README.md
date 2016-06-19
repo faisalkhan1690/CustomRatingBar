@@ -18,15 +18,16 @@ android:progressDrawable="@drawable/rating_stars"
 ```
    rating_stars is the selector drawable
    
-4. set in parent of your layout 
+3. set in parent of your layout 
 ```xml 
 xmlns:rating_bar_custom="http://schemas.android.com/apk/res-auto"
 ```
    
-5. set number of stars in 
+4. set number of stars in 
 ```xml 
 rating_bar_custom:customNumStars 
-``` instead of  
+``` 
+instead of  
 ```xml 
 android:numStars 
 ```
