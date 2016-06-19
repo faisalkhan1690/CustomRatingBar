@@ -6,24 +6,24 @@ Custom Rating Bar
 
 How to use
 --------------
-1. set
+Set
 ```xml
 android:indeterminateDrawable="@drawable/unselected_star"
 ```
    unselected_star is the unselected drawable
    
-2. set 
+Set 
 ```xml 
 android:progressDrawable="@drawable/rating_stars"
 ```
    rating_stars is the selector drawable
    
-3. set in parent of your layout 
+Set in parent of your layout 
 ```xml 
 xmlns:rating_bar_custom="http://schemas.android.com/apk/res-auto"
 ```
    
-4. set number of stars in 
+Set number of stars in 
 ```xml 
 rating_bar_custom:customNumStars 
 ``` 
